@@ -22,7 +22,7 @@ import FAQ from './pages/FAQ'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/bitgrid">
       <ScrollToTop />
       <div className="min-h-screen bg-bg-dark flex flex-col">
         <Navbar />
